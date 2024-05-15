@@ -89,7 +89,7 @@ public:
 		float r = length_sq();
 		if ( r < 0.0001f && r > -0.0001f ) return 0;
 
-		return (float)std::sqrtf( r );
+		return (float)sqrtf( r );
 #else
 		return (float)sqrt( length_sq() );
 #endif
