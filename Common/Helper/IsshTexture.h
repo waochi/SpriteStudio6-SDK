@@ -3,6 +3,7 @@
 
 #include "../Loader/sstypes.h"
 #include <map>
+#include <cstdint>
 
 namespace spritestudio6
 {
